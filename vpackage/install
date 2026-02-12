@@ -50,5 +50,6 @@ mv vwebapp .vwebapp
 cd .vwebapp
 rm .git
 ln -s `pwd`/vwebapp ~/bin/vwebapp
+chmod a+x ~/bin/vwebapp
 echo -e $bldcyn"Installation abgeschlossen
 $txtrst"
