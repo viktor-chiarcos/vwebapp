@@ -44,7 +44,7 @@ echo -e $bldcyn"vwebapp von Viktor Chiarcos
 
 	Zum fortfahren ENTER klicken, sonst Fenster schließen.
 $txtrst"
-read
+read enter
 git clone https://github.com/viktor-chiarcos/vwebapp/ 
 mv vwebapp .vwebapp
 cd .vwebapp
