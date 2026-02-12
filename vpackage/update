@@ -1,1 +1,6 @@
 #!/bin/bash
+
+cd ~/.vwebapp
+rm ~/.vwebapp/vwebapp
+echo `curl -L https://raw.githubusercontent.com/viktor-chiarcos/vwebapp/refs/heads/main/vwebapp` > vwebapp
+chmod a+x vwebapp
