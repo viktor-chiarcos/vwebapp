@@ -48,7 +48,6 @@ if echo $browser | egrep "firefox" >&/dev/null
 then echo firefox > browser.conf
 elif echo $browser | egrep "librewolf" >&/dev/null
 then echo `whereis -b librewolf | cut -f 2 -d ":" | cut -f 2 -d " " >&/dev/null`
-	fi 
 else echo "Ihr gewählter Browser ist leider nicht verfügbar!"
 	echo "Bendet mit Fehler 1"
 	exit 1
